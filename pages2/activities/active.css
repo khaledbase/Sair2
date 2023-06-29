@@ -1,0 +1,51 @@
+body{
+    background-color: whitesmoke !important;
+    overflow: hidden;
+    height: 100%;
+}
+.content-header{
+    text-align: right;
+    background-color: white !important;
+}
+.content-header h1{
+    position: relative;
+    left: -230px;
+}
+.headhero{
+    display: flex;
+    justify-content:space-around;
+    width: 1550px;
+    height: 50px;
+    margin-right: 50px;
+}
+.headhero h2{
+    margin-left: 650px;
+}
+.hero{
+    background-color: white;
+    margin-right: 350px;
+   width: 1000px;
+   height: 100%;
+   border-radius: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center !important;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.long-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+}

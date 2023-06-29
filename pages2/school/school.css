@@ -1,0 +1,133 @@
+.sidebar-menu{
+    text-align: right;
+}
+.content-header{
+    text-align: right;
+    background-color: white !important;
+}
+.content-header h1{
+    position: relative;
+    left: -230px;
+}
+
+.hero{
+    margin-right: 250px;
+    margin-top: 20px;
+    height: 100%;
+    text-align: right;
+    background-color:whitesmoke;
+display: grid;
+grid-template-columns: 40% 40%;
+justify-content: center;
+
+}
+
+#one{
+    background-color: white;
+    height: 400px;
+}
+.two{
+    background-color: white;
+height: 400px;
+}
+label{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+input{
+    width: 450px;
+    border: 2px dimgray solid;
+    border-radius: 10px;
+}
+.icon{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+#iconScool{
+    height:40px;
+    position: relative;
+    top: 15px;
+}
+.footer{
+    text-align: center;
+}
+#iconfooter{
+    width: 1000px;
+    font-size: 20px;
+  
+    
+    margin-right: 170px; 
+}
+select{
+    width: 450px;
+    border: 2px dimgray solid;
+    border-radius: 10px; 
+}
+
+
+.hero2{
+    background-color: whitesmoke;
+    
+   
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+/* table {
+    width: 1000px;
+    border-collapse: collapse;
+    
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    text-align: right;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: right;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    text-align: right;
+  } */
+  table {
+    border-collapse: collapse;
+    width: 1200px;
+    margin-right: 100px;
+    line-height: 40px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  input[type="text"] {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .fa-solid.fa-trash {
+    color: red;
+    cursor: pointer;
+  }
+  
+  input{
+    width: 70px !important;
+  }

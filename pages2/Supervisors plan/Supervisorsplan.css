@@ -1,0 +1,48 @@
+body{
+    background-color: whitesmoke !important;
+}
+.content-header{
+    text-align: right;
+    background-color: white !important;
+}
+.content-header h1{
+    position: relative;
+    left: -230px;
+}
+.hero{
+    background-color: white;
+
+    margin-right: 350px;
+   width: 1000px;
+   height: 150px;
+   border-radius: 20px;
+}
+.headhero{
+    display: flex;
+    justify-content:center;
+    width: 1550px;
+    height: 50px;
+    margin-right: 50px;
+}
+#month{
+    position: relative;
+top: 30px;
+left: 50px;
+height: 20px;
+}
+label{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+input{
+    width: 450px;
+    border: 2px dimgray solid;
+    border-radius: 10px;
+}
+#btnfoot{
+    width: 1000px;
+}
+#btnheadhero{
+   display: none;
+}

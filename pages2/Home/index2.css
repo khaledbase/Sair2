@@ -1,0 +1,120 @@
+body{
+    background-color: whitesmoke !important;
+    overflow: hidden;
+    height: 100%;
+}
+.content-header{
+    text-align: right;
+    background-color: white !important;
+}
+.content-header h1{
+    position: relative;
+    left: -230px;
+}
+.hero{
+    background-color: whitesmoke;
+    margin-right: 350px;
+   width: 1100px;
+   height: 100vh;
+   border-radius: 20px;
+}
+.hero h1{
+    color: black;
+   font-size: 45px;
+   font-weight: lighter;
+}
+.imghero2{
+    width: 350px;
+    height: 360px;
+    border-radius: 50%;
+    position: relative;
+    right: 300px;
+}
+.boxs{
+    float: left;
+    display: flex;
+    flex-direction: column;
+
+}
+.box1{
+    width: 250px;
+    height: 200px;
+      padding: 10px;
+      background-color: cadetblue;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      float: left;
+      margin-bottom: 20px;
+  }
+  
+  .imgbox1{
+     width: 50px;
+     height: 50px;
+     border-radius: 20px;
+     float: right;
+  }
+  
+  
+    .weather-box {
+      width: 250px;
+      height: 200px;
+      padding: 20px;
+      background-color: cadetblue;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      float: left;
+      margin-bottom: 10px;
+    }
+    
+    #day {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    #date {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    #temperature {
+      font-size: 36px;
+      color: #e74c3c;
+      font-weight: bold;
+    }
+    .sidebar{
+        height: 1600px !important;
+   
+    }
+
+    .hero2{
+      background-color: white;
+      margin-right: 350px;
+     width: 1100px;
+     height: 100vh;
+     border-radius: 20px; 
+     overflow-x: auto; 
+    }
+    .hero2 .head{
+      background-color:cornsilk;
+      padding: 10px;
+      width: 1300px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 1300px;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: center !important;
+      border-bottom: 1px solid #ddd;
+      font-size: 17px;
+    }
+    
+    tr:hover {background-color: #f2f2f2;}
+    
